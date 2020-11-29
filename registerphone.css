@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+#test-form{
+    display: flex;
+    align-items: center;
+    background: url('hhs.svg') no-repeat center center/cover;
+}
+
+
+.register {
+    background: rgb(113, 222, 255);
+    border-radius: 1.5rem;
+    text-align: center;
+    width: 90vw;
+}
+.Registerbtn{
+    width: 70vw;
+    padding: 3px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+.row{
+    padding: 10px;
+}
+
+.btnSubmit{
+    cursor: pointer;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+/* section */

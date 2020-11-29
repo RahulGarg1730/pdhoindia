@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadhoINDia Mock Test Registration</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" media="screen and (max-width: 1244px) " href="registerphone.css">
+
+</head>
+
+<body>
+    <section id="test-form">
+        <div class="container register">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel"
+                        aria-labelledby="home-tab">
+                        <h3 class="register-heading">Register For Jee Mock Test 2020 by PadhoINDia </h3>
+                        <p id="note" class="register-heading">*Please Fill Registeration Form in Given Formet, Click at Register and Wait till 10sec </p>
+                        <div class="row register-form">
+                            <div class="col-md-12">
+                                <form method="post" autocomplete="off" name="google-sheet">
+                                    <div class="form-group">
+                                        <input type="text" name="Name" class="Registerbtn" placeholder="Your Name *"
+                                            value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="Email" class="Registerbtn" placeholder="Your Email *"
+                                            value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="Phone" class="Registerbtn"
+                                            placeholder="Your Contact Number *" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="Text" name="Year" class="Registerbtn"
+                                            placeholder="Fresher / Droper / 2nd Droper*" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="Text" name=" Testtype" class="Registerbtn"
+                                            placeholder="All / 1st / 2nd / 3rd / 4th / 5th*" value="" required="" />
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <input type="submit" name="submit" class="Registerbtn btnSubmit btn-block"
+                                            value="Register" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="foter">
+        <h3> copyright@PadhoINDia </h3>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyP8DL0ByPwreJctX1TKoaDKyirquxaIcOaL1jyOGDyMqsJ_nsl/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>

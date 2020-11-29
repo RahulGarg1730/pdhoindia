@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    margin-left: 0vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 2vh;
+}
+.navbar li{
+    list-style: none;
+    padding: 0px 1vw;
+}
+.navbar li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.navbar li a:hover{
+    color: rgb(120, 182, 240);
+}
+.papermain{
+    text-align: center;
+    background: url('paperbg2.png') no-repeat center center/cover;
+}
+.registerdown{
+    margin-top: 45vh;
+    background-color: rgb(49, 162, 255);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    }
+
+#headportal2 h2{
+    margin-top: 10px;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+#line2{
+    margin:0px 5px;
+    background-color: rgb(255, 43, 43);
+    height: 3px;
+    width: 100px;   
+}
+.testtypedivider{
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+}
+.datespecial{
+    width: 65vw;
+    height:30vh;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+#paperdate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.realregistration{
+    margin-top: 20px;
+    background-color: #288fe4;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    padding: 7px 15px;
+}
+
+
+/* section3 */
+
+.sec3test{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 40, 7);
+    justify-content: center;
+    background: url('try.png');
+   
+}
+
+.contactandabout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logosm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contactus{
+    text-align: center;
+}
+
+.marginclass {
+    margin: 1vh 0vw;
+    text-align: center;
+}
+
+.heading-font-size{
+    color: rgb(225, 236, 255);
+    font-size: 1.5rem;
+}
+.Follow-heading{
+    color: red;
+    font-size: 20px;
+} 
+.margin-beauty-smpage{
+    margin:5px 10px;
+}
+#logoinpaperpage {
+    width: 250px;
+}
+
+#fb {
+    width: 35px;
+    height: auto;
+}
+
+#insta {
+    width: 35px;
+    height: auto;
+}
+
+#twi {
+    width: 35px;
+    height: auto;
+}
+
+#yt {
+    width: 35px;
+    height: auto;
+}
+
+* {
+    font-family: 'Baloo 2', cursive;
+    margin: 0%;
+    padding: 0%;
+}

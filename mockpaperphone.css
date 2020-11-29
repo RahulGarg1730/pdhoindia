@@ -44,7 +44,7 @@ nav{
 }
 .papermain{
     text-align: center;
-    background: url('photos/paperbg2.png') no-repeat center center/cover;
+    background: url('photos/paperbg2.webp') no-repeat center center/cover;
 }
 .registerdown{
     margin-top: 45vh;
@@ -107,7 +107,7 @@ nav{
     flex-direction: column;
     background-color: rgb(58, 40, 7);
     justify-content: center;
-    background: url('photos/try.png');
+    background: url('photos/try.webp');
    
 }
 

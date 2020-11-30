@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     box-sizing: border-box;
@@ -165,9 +166,9 @@ nav{
 }
 
 /* section3 */
-*{
-    margin: 0%;
-    padding: 0%;
+#sec3{
+    background: url('footerbg.svg') no-repeat center center/cover ;
+    
 }
 .sec3test{
     display: flex;
